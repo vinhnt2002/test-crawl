@@ -1,0 +1,40 @@
+{
+  "name": "fastmoss-crawler",
+  "version": "1.0.0",
+  "description": "FastMoss seller and product crawler",
+  "main": "fassmost_seller_v2.js",
+  "scripts": {
+    "start": "node fassmost_seller_v2.js",
+    "dev": "nodemon fassmost_seller_v2.js",
+    "setup": "node setup.js",
+    "test-proxy": "node test-proxy.js",
+    "debug": "node debug-api.js",
+    "check-antibot": "node check-anti-bot.js",
+    "test-puppeteer": "node test-puppeteer.js",
+    "puppeteer": "node puppeteer-crawler.js",
+    "etsy-demo": "node ScraperAPI/demo-etsy.js",
+    "etsy-trending": "node ScraperAPI/monitor-trending.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "https-proxy-agent": "^7.0.2",
+    "mongodb": "^6.3.0",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^24.10.2",
+    "qs": "^6.11.2",
+    "striptags": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "crawler",
+    "fastmoss",
+    "tiktok",
+    "ecommerce"
+  ],
+  "author": "",
+  "license": "ISC"
+}
